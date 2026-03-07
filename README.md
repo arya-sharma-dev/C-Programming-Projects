@@ -1,7 +1,7 @@
 # Python Projects
 
 
-This repository contains Python programs that I am building while learning programming from scratch. It contains a collection of Python projects demonstrating practical programming skills.
+This repository contains C programs that I am building while learning programming from scratch. It contains a collection of C projects demonstrating practical programming skills.
 These projects are built to strengthen problem-solving, logical thinking, and hands-on Python experience.
 
 ## Projects Overview

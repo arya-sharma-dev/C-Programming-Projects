@@ -19,7 +19,7 @@ The goal is to build strong fundamentals through practical, working code rather 
 C-Programming-Projects/
 ├── 01_Basics_IO/
 ├── 02_Operators_Expressions/
-├── 03_If_Else_If_Ladder/
+├── 03_if_else_if_ladder/
 ├── 04_Loops_Patterns/
 ├── 05_Functions/
 ├── 06_Arrays/

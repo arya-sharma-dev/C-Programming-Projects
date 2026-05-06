@@ -19,14 +19,15 @@ The goal is to build strong fundamentals through practical, working code rather 
 C-Programming-Projects/
 ├── 01_Basics_IO/
 ├── 02_Operators_Expressions/
-├── 03_Control_Flow/
+├── 03_If_Else_If_Ladder/
 ├── 04_Loops_Patterns/
 ├── 05_Functions/
-├── 06_Arrays_Searching_Sorting/
+├── 06_Arrays/
 ├── 07_Strings/
 ├── 08_2D_Arrays_Matrix/
 ├── 09_Structures/
-└── 10_Nested_Patterns/
+├── 10_Nested_Patterns/
+└── 11_Sorting/
 ```
 
 ---
@@ -39,7 +40,7 @@ Programs covering the fundamentals of C: variables, data types, and basic input/
 ### 02 — Operators & Expressions
 Programs demonstrating arithmetic, relational, logical, and bitwise operators along with expressions and type conversions.
 
-### 03 — If else IF ladder
+### 03 — If Else IF Ladder
 Programs using conditional statements: `if`, `else`, `else if`, and `switch-case` to make decisions in code.
 
 ### 04 — Loop Based Programs

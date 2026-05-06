@@ -1,53 +1,79 @@
-# Python Projects
+# C Programming Projects
 
+A collection of C programs written while learning programming from scratch.
+This repository documents my hands-on journey through core programming concepts —
+from basic input/output to functions, arrays, and beyond.
 
-This repository contains C programs that I am building while learning programming from scratch. It contains a collection of C projects demonstrating practical programming skills.
-These projects are built to strengthen problem-solving, logical thinking, and hands-on Python experience.
+---
+
+## About This Repository
+
+Each program in this repo solves a specific problem or demonstrates a key concept
+in C programming. The goal is to build strong fundamentals through practical,
+working code rather than just theory.
+
+---
 
 ## Projects Overview
 
-1. **Hello World** – Simple program to print "Hello World" to the console.  
-2. **Marks Display Table** – Displays subject marks in a formatted table using a single `printf` statement.  
-3. **Sum of Two Numbers** – Accepts two numbers as input and prints their sum.  
-4. **Temperature Converter** – Converts temperature from Fahrenheit to Celsius based on user input.  
-5. **Simple Interest Calculator** – Calculates simple interest given principal, rate, and time.  
-6. **ASCII Value Finder** – Accepts a character and displays its ASCII value.  
-7. **Swap Two Variables** – Swaps the values of two variables using temporary storage.
+| # | Project | Description |
+|---|---------|-------------|
+| 01 | Hello World | Prints "Hello, World!" to the console — the classic first program |
+| 02 | Marks Display Table | Displays subject marks in a formatted table using `printf` |
+| 03 | Sum of Two Numbers | Takes two numbers as input and prints their sum |
+| 04 | Temperature Converter | Converts temperature from Fahrenheit to Celsius |
+| 05 | Simple Interest Calculator | Calculates simple interest given principal, rate, and time |
+| 06 | ASCII Value Finder | Accepts a character and displays its ASCII value |
+| 07 | Swap Two Variables | Swaps the values of two variables using a temporary variable |
+
+---
 
 ## Topics Covered
 
-- C basics: syntax, variables, data types  
-- Input/output operations (`scanf`, `printf`)  
-- Arithmetic, relational, and logical operators  
-- Conditional statements (`if`, `else`)  
-- Loops (for, while)  
-- Basic problem-solving logic  
-- Working with characters and ASCII values  
+- Variables, data types, and basic syntax
+- Input/output with `scanf` and `printf`
+- Arithmetic, relational, and logical operators
+- Conditional statements (`if`, `else`, `else if`)
+- Loops (`for`, `while`, `do-while`)
+- Functions and modular programming
+- Arrays (1D and 2D)
+- Strings and string operations
+- Structures (`struct`)
+- Characters and ASCII values
+
+---
 
 ## How to Run
 
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/arya-sharma-dev/C-Programming-Projects.git
+### Prerequisites
+- GCC compiler installed (`gcc --version` to check)
+- A terminal / command prompt
 
-2. Navigate into the cloned folder:
+### Steps
 
-   cd CPrograms
+```bash
+# 1. Clone the repository
+git clone https://github.com/arya-sharma-dev/C-Programming-Projects.git
 
-3. Enter the folder of the project you want to run:
+# 2. Navigate into the project folder
+cd C-Programming-Projects
 
-   cd FolderName
+# 3. Enter the specific project folder
+cd FolderName        # e.g., cd 01_HelloWorld
 
-4. Replace FolderName with the project folder you want (e.g., HelloWorld).
+# 4. Compile the program
+gcc FileName.c -o FileName
 
-5. Compile and run the C program:
+# 5. Run the compiled program
+./FileName           # On Linux/Mac
+FileName.exe         # On Windows
+```
 
-   gcc FileName.c -o FileName
-   ./FileName
+> **Note:** For programs using math functions (e.g., `pow`, `sqrt`), add the `-lm` flag:
+> ```bash
+> gcc FileName.c -o FileName -lm
+> ```
 
-Replace FileName.c with the actual C file name in that folder.
+---
 
-## Contact
-GitHub: https://github.com/arya-sharma-dev
-
-LinkedIn: https://www.linkedin.com/in/arya-sharma-codes
+## Folder Structure

@@ -1,4 +1,4 @@
-# If / If-else / If Ladders
+# if / if-else / if Ladders
 
 **10 programs** — These programs use conditional statements to make decisions. Covers simple if, if-else, nested if-else, and if-else ladders applied to real-world problems.
 
